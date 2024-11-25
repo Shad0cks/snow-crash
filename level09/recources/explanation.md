@@ -1,11 +1,11 @@
-le token est le resutat de la transformation du token original mit dans le binary level09
+The **token** file is the result of transforming the original token processed by the binary level09.
 
-Le binaire level09 vas:
+The binary **level09** performs the following steps for each character in the string:
 
-pour chaque char dans la string:
-        -> position du char dans la string + HEX du char
+For eatch character ->
+character's position in the string  + its hexadecimal value
 
-Pour reverse la transformation nous pouvons recuperer les valeurs hexadecimal du token 
+To reverse the transformation, we can extract the hexadecimal values from the token.
 
 ```bash
 hexdump token
@@ -15,7 +15,7 @@ hexdump token
 000001a
 ```
 
-et renverser le processus dans un script python.
+and reverse the process using a python script.
 
 Solver:
 ```python
@@ -28,7 +28,7 @@ for (i, l) in enumerate(s):
 print(r)
 ```
 
-Resultat -> `f3iji1ju5yuevaus41q1afiuq`
+Result -> `f3iji1ju5yuevaus41q1afiuq`
 
 ```bash
 su flag09 / f3iji1ju5yuevaus41q1afiuq

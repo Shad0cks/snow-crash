@@ -8,7 +8,8 @@ target
 `cat level07 | nc 10.0.2.15 9090`
 
 Binary 
-![[Pasted image 20241125112703.png]]
+
+![alt text](image.png)
 
 Get **LOGNAME** environment variable and echo it.
 

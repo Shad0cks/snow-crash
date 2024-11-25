@@ -4,7 +4,8 @@
 -rw-------  1 flag08  flag08    26 Mar  5  2016 token
 ```
 
-![[Pasted image 20241125113442.png]]
+![alt text](image.png)
+
 
 This script read file with **level08** permission only if the filename doesn't contain the word *'token'*
 
